@@ -1,0 +1,219 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Template Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css"
+		media="screen, projection">
+	<style type="text/css" media="screen">
+		p,
+		table,
+		hr,
+		.box {
+			margin-bottom: 25px;
+		}
+
+		.box p {
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+
+		<h3 class="center alt">&ldquo;School App UI&rdquo; Documentation by &ldquo;DevsBeta&rdquo; v1.0</h3>
+
+		<hr>
+
+		<h1 class="center">&ldquo;School App UI&rdquo;</h1>
+
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+						Created: 16/1/2023<br>
+						By: DevsBeta<br>
+						Email: <a href="mailto:hmusman@devsbeta.com">hmusman@devsbeta.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->
+
+			<div class="span-12 last">
+				<p class="prepend-top append-0">First of all, Thank you so much for purchasing this application and for
+					being our loyal customer.
+					This documentation is to help you regarding set up.</p>
+			</div>
+		</div><!-- end div .borderTop -->
+
+		<hr>
+
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#requirement">Requirement</a></li>
+			<li><a href="#filestructure">File Structure</a></li>
+			<li>
+				<a href="#installation">Installation</a>
+				<ul>
+					<li>
+						<a href="#installflutteronwindows">Install flutter on windows</a>
+					</li>
+					<li>
+						<a href="#installflutteronmac">Install flutter on mac</a>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#appconfiguration">App Configuration</a></li>
+		</ol>
+
+		<hr>
+
+		<h3 id="requirement"><strong>A) Requirement</strong> - <a href="#toc">top</a></h3>
+		<p>This project have required following dependency</p>
+		<p>Flutter Requirements</p>
+		<ol>
+			<li>Android Studio: Electric Eel</li>
+			<li>Flutter: 3.x</li>
+		</ol>
+
+		<hr>
+
+		<h3 id="filestructure"><strong>B) File Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>General file structure of the app</p>
+		<img src="assets/images/file_structure.png" alt="File Structure" width="100%" height="auto">
+
+		<hr>
+
+		<h3 id="installation"><strong>C) Installation</strong> - <a href="#toc">top</a></h3>
+
+		<h4 id="installflutteronwindows"><strong>Install flutter on windows</strong></h4>
+
+		<ul>
+			<li>Download Android Studio <a href="https://developer.android.com/studio/" target="_blank">Click here</a>
+			</li>
+			<li>
+				Get the Flutter SDK
+				<ol>
+					<li>
+						Install
+						<a href="https://docs.flutter.dev/get-started/install"
+							target="_blank">https://flutter.dev/docs/get-started/instal</a>
+						<img src="assets/images/flutter_site.png" alt="Flutter Site" width="100%" height="auto">
+						<div style="margin-bottom: 9px;"></div>
+						<p>Extract the zip file and copy flutter folder into your desired installation location for the
+							Flutter SDK (eg. C:\src\flutter; do not install Flutter in a directory like C:\Program
+							Files\).</p>
+						<img src="assets/images/explorer.png" alt="explorer" width="100%" height="auto">
+					</li>
+					<li>Now set your environment variable</li>
+					<li>From the Start search bar in , type ‘env’ and select Edit environment variables for your account
+					</li>
+					<li>Under User variables check if there is an entry called ‘path’</li>
+					<li>
+						Click on Edit. New Dialog open from it click on new and copy full path to flutter\bin as its
+						value
+						<img src="assets/images/dialog.png" alt="explorer" width="100%" height="auto">
+					</li>
+					<li>Now Restart your pc for changes to take effect</li>
+					<li>
+						Open cmd and run flutter doctor as shown below
+						<img src="assets/images/cmd.png" alt="explorer" width="100%" height="auto">
+					</li>
+					<li>
+						Now open Android Studio and create new flutter project then select your flutter sdk file to the
+						location where we have downloaded earlier and that's it.
+						<img src="assets/images/sdk.png" alt="explorer" width="100%" height="auto">
+					</li>
+					<li>
+						Learn more about Android Studio - <a href="https://developer.android.com/studio/intro"
+							target="_blank">Click here</a>
+					</li>
+				</ol>
+			</li>
+		</ul>
+
+		<h4 id="installflutteronmac"><strong>Install flutter on mac</strong></h4>
+		<ul>
+			<li>
+				Download Android Studio - <a href="https://developer.android.com/studio">Click here</a>
+			</li>
+			<li>
+				Download Xcode - <a href="https://apps.apple.com/us/app/xcode/id497799835?mt=12">Click here</a>
+			</li>
+			<li>
+				Get the Flutter SDK - <a href="https://docs.flutter.dev/get-started/install">Click here</a>
+				<ol>
+					<li>
+						Install -
+						<a href="https://docs.flutter.dev/get-started/install" target="_blank">Click here</a>
+						<img src="assets/images/sdkmac.png" alt="explorer" width="100%" height="auto">
+						<p>Extract downloaded file, just double click on that. and just copy extracted folder and paste
+							it to your desired location (for example, Documents\flutter).</p>
+					</li>
+					<li>
+						Update your path
+						<div style="background-color: #FEF3D7; padding: 10px;">
+							<strong>Warning</strong>
+							<p>Path variable needs to be updated to access “flutter” command from terminal. you can just
+								update path variable for current terminal window only. and if you want to access flutter
+								commands from anywhere in terminal, we need to update SDK path permanently.</p>
+						</div>
+						<p>To update PATH variable, we need to open terminal.</p>
+						<p>To update PATH variable for current terminal window only, then enter this command "export
+							PATH="$PATH:`pwd`/flutter/bin"" and hit enter key.</p>
+						<p>To update PATH variable permanently, then Open or create .bash_profile file. to open or
+							create that file, then enter "sudo open -e $HOME/.bash_profile" and hit enter key.</p>
+						<p>Append below line to bash_profile file at bottom of all other content. "export
+							PATH="$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin"" as [PATH_TO_FLUTTER_GIT_DIRECTORY]
+							is actual path of SDK folder.</p>
+						<p>Run this command on terminal "source $HOME/.bash_profile" to refresh PATH variables.</p>
+						<p>Then check whether our SDK is successfully installed or not.</p>
+						<p>You are now ready to run Flutter commands in the Flutter Console!</p>
+						<p>Run "flutter doctor" into terminal, If you are getting check list of flutter sdk
+							requirements, it means SDK is successfully installed on your machine. and you can start
+							building flutter apps on your machine.</p>
+
+						<p>If you find any issue during environment setup in macos, please go online -
+							<a href="https://docs.flutter.dev/get-started/install/macos" target="_blank">Click here</a>
+						</p>
+					</li>
+				</ol>
+			</li>
+		</ul>
+
+		<hr>
+		<h3 id="appconfiguration"><strong>D) App Configuration</strong> - <a href="#toc">top</a></h3>
+		<ul>
+			<li>
+				<p>Change App Name</p>
+				<img src="assets/images/change_app_name.png" alt="change app name" width="100%" height="auto">
+			</li>
+			<li>
+				<p>Change App Icon</p>
+				<ol>
+					<li>Replace app_icon.png in assets/images folder</li>
+					<li>Run flutter pub get command in android studio terminal</li>
+					<li>Run flutter pub run flutter_launcher_icons command</li>
+				</ol>
+				<img src="assets/images/flutter_launcher_cmd.png" alt="flutter launcher cmd" width="100%" height="auto">
+			</li>
+			<li>
+				<p>Change Package Name</p>
+				<ol>
+					<li>Run flutter pub get command in android studio terminal</li>
+					<li>Run flutter pub run change_app_package_name:main com.new.package.name</li>
+				</ol>
+				<img src="assets/images/change_app_package.png" alt="change app package" width="100%" height="auto">
+			</li>
+		</ul>
+
+	</div><!-- end div .container -->
+</body>
+
+</html>
